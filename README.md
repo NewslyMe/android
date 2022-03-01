@@ -5,11 +5,11 @@ ExoPlayer is an application level media player for Android. It provides an alter
 
 This project has the following feature: 
 
-“*” When you click on Article/Podcast, you'll be able to add a bottom track player
+- When you click on Article/Podcast, you'll be able to add a bottom track player
 
-When you click on the bottom track player, the entire player screen will appear
+- When you click on the bottom track player, the entire player screen will appear
 
-Play, pause, next, prev, and progressbar are all available on the bottom track player
+- Play, pause, next, prev, and progressbar are all available on the bottom track player
 Play, pause, next, previous, progressbar, speed change, reset, fast forward, and backward are all available in the full screen player
 ExoPlayer features extension modules that rely on CustomView for bottom player functionality, while PlayerActivity is in charge of full screen player functionality
 MyCustomReactViewManager has a functionality to get data from React native. It is added as a requireNativeComponent on React Native platform 
