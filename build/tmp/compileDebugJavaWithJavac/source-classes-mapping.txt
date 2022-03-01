@@ -1,0 +1,73 @@
+com/guichaguri/trackplayer/activity/MyCustomReactViewManager.java
+ com.guichaguri.trackplayer.activity.MyCustomReactViewManager
+com/guichaguri/trackplayer/SeekBar/BubbleConfigBuilder.java
+ com.guichaguri.trackplayer.SeekBar.BubbleConfigBuilder
+com/guichaguri/trackplayer/module/NewsItemStorage.java
+ com.guichaguri.trackplayer.module.NewsItemStorage
+com/guichaguri/trackplayer/preferences/SharedPrefHelper.java
+ com.guichaguri.trackplayer.preferences.SharedPrefHelper
+com/guichaguri/trackplayer/BuildConfig.java
+ com.guichaguri.trackplayer.BuildConfig
+com/guichaguri/trackplayer/activity/PlayerManager.java
+ com.guichaguri.trackplayer.activity.PlayerManager
+ com.guichaguri.trackplayer.activity.PlayerManager$1
+com/guichaguri/trackplayer/client/Constants.java
+ com.guichaguri.trackplayer.client.Constants
+com/guichaguri/trackplayer/module/NewsItem.java
+ com.guichaguri.trackplayer.module.NewsItem
+com/guichaguri/trackplayer/SeekBar/BubbleUtils.java
+ com.guichaguri.trackplayer.SeekBar.BubbleUtils
+com/guichaguri/trackplayer/activity/CustomView.java
+ com.guichaguri.trackplayer.activity.CustomView
+ com.guichaguri.trackplayer.activity.CustomView$1
+ com.guichaguri.trackplayer.activity.CustomView$2
+ com.guichaguri.trackplayer.activity.CustomView$3
+com/guichaguri/trackplayer/activity/PlayerActivity.java
+ com.guichaguri.trackplayer.activity.PlayerActivity
+ com.guichaguri.trackplayer.activity.PlayerActivity$1
+ com.guichaguri.trackplayer.activity.PlayerActivity$2
+ com.guichaguri.trackplayer.activity.PlayerActivity$3
+ com.guichaguri.trackplayer.activity.PlayerActivity$4
+ com.guichaguri.trackplayer.activity.PlayerActivity$5
+ com.guichaguri.trackplayer.activity.PlayerActivity$6
+com/guichaguri/trackplayer/client/PlayerController.java
+ com.guichaguri.trackplayer.client.PlayerController
+com/guichaguri/trackplayer/client/PlayerAdapter.java
+ com.guichaguri.trackplayer.client.PlayerAdapter
+ com.guichaguri.trackplayer.client.PlayerAdapter$1
+ com.guichaguri.trackplayer.client.PlayerAdapter$AudioFocusHelper
+com/guichaguri/trackplayer/SeekBar/BubbleSeekBar.java
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$1
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$2
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$3
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$4
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$4$1
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$5
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$6
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$7
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$8
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$BubbleView
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$CustomSectionTextArray
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$OnProgressChangedListener
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$OnProgressChangedListenerAdapter
+ com.guichaguri.trackplayer.SeekBar.BubbleSeekBar$TextPosition
+com/guichaguri/trackplayer/module/MusicModule.java
+ com.guichaguri.trackplayer.module.MusicModule
+com/guichaguri/trackplayer/databinding/ActivityMainBinding.java
+ com.guichaguri.trackplayer.databinding.ActivityMainBinding
+com/guichaguri/trackplayer/databinding/CustomDialogSpeedBinding.java
+ com.guichaguri.trackplayer.databinding.CustomDialogSpeedBinding
+com/guichaguri/trackplayer/service/Utils.java
+ com.guichaguri.trackplayer.service.Utils
+com/guichaguri/trackplayer/databinding/PlayerScreenBinding.java
+ com.guichaguri.trackplayer.databinding.PlayerScreenBinding
+com/guichaguri/trackplayer/client/PlaybackInfoListener.java
+ com.guichaguri.trackplayer.client.PlaybackInfoListener
+com/guichaguri/trackplayer/activity/ViewDialog.java
+ com.guichaguri.trackplayer.activity.ViewDialog
+ com.guichaguri.trackplayer.activity.ViewDialog$1
+ com.guichaguri.trackplayer.activity.ViewDialog$2
+ com.guichaguri.trackplayer.activity.ViewDialog$3
+com/guichaguri/trackplayer/TrackPlayer.java
+ com.guichaguri.trackplayer.TrackPlayer

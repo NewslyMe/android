@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <color name="colorAccent">#FFFF80FF</color>
+    <color name="color_gray">#EBE7E7</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="broadcast_new_media_id">broadcast_new_media_id</string>
+    <string name="broadcast_seekbar_update">broadcast_seekbar_update</string>
+    <string name="broadcast_seekbar_value">broadcast_seekbar_value</string>
+    <string name="broadcast_update_ui">broadcast_update_ui</string>
+    <string name="error_drm_unsupported_before_api_18">DRM content not supported on API levels below 18</string>
+    <string name="error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
+    <string name="error_generic">Playback failed</string>
+    <string name="error_instantiating_decoder">Unable to instantiate decoder <ns1:g id="decoder_name">%1$s</ns1:g></string>
+    <string name="error_no_decoder">This device does not provide a decoder for <ns1:g id="mime_type">%1$s</ns1:g></string>
+    <string name="error_no_secure_decoder">This device does not provide a secure decoder for <ns1:g id="mime_type">%1$s</ns1:g></string>
+    <string name="error_querying_decoders">Unable to query device decoders</string>
+    <string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+    <string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+    <string name="label_next">Next track</string>
+    <string name="label_pause">Pause</string>
+    <string name="label_play">Play</string>
+    <string name="label_play_pause">Play and pause toggle</string>
+    <string name="label_previous">Previous track</string>
+    <string name="label_stop">Stop</string>
+    <style name="ShapeAppearance.CircularBorder" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    <declare-styleable name="BubbleSeekBar">
+        <attr format="float|reference" name="bsb_min"/> 
+        <attr format="float|reference" name="bsb_max"/> 
+        <attr format="float|reference" name="bsb_progress"/> 
+        <attr format="boolean" name="bsb_is_float_type"/> 
+        <attr format="dimension|reference" name="bsb_track_size"/> 
+        
+        <attr format="dimension|reference" name="bsb_second_track_size"/>
+        <attr format="dimension|reference" name="bsb_thumb_radius"/> 
+        
+        <attr format="dimension|reference" name="bsb_thumb_radius_on_dragging"/>
+        <attr format="color|reference" name="bsb_track_color"/> 
+        <attr format="color|reference" name="bsb_second_track_color"/> 
+        <attr format="color|reference" name="bsb_thumb_color"/> 
+        <attr format="integer|reference" name="bsb_section_count"/> 
+        <attr format="boolean" name="bsb_show_section_mark"/> 
+        <attr format="boolean" name="bsb_auto_adjust_section_mark"/> 
+        <attr format="boolean" name="bsb_show_section_text"/> 
+        <attr format="dimension|reference" name="bsb_section_text_size"/> 
+        <attr format="color|reference" name="bsb_section_text_color"/> 
+        
+        <attr name="bsb_section_text_position">
+            <enum name="sides" value="0"/>
+            <enum name="bottom_sides" value="1"/>
+            <enum name="below_section_mark" value="2"/>
+        </attr>
+        <attr format="integer" name="bsb_section_text_interval"/> 
+        <attr format="boolean" name="bsb_show_thumb_text"/> 
+        <attr format="dimension|reference" name="bsb_thumb_text_size"/> 
+        <attr format="color|reference" name="bsb_thumb_text_color"/> 
+        <attr format="boolean" name="bsb_show_progress_in_float"/> 
+        <attr format="boolean" name="bsb_touch_to_seek"/> 
+        <attr format="boolean" name="bsb_seek_step_section"/> 
+        <attr format="boolean" name="bsb_seek_by_section"/> 
+        <attr format="color|reference" name="bsb_bubble_color"/> 
+        <attr format="dimension|reference" name="bsb_bubble_text_size"/> 
+        <attr format="color|reference" name="bsb_bubble_text_color"/> 
+        <attr format="integer" name="bsb_anim_duration"/> 
+        <attr format="boolean" name="bsb_always_show_bubble"/> 
+        <attr format="integer" name="bsb_always_show_bubble_delay"/> 
+        <attr format="boolean" name="bsb_hide_bubble"/> 
+        <attr format="boolean" name="bsb_rtl"/> 
+        <attr name="android:enabled"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,54 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.guichaguri.trackplayer" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.WAKE_LOCK" />
+9-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:5:5-68
+9-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:5:22-65
+10    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+10-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:6:5-77
+10-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:6:22-74
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:7:5-66
+11-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:8:5-78
+12-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:8:22-76
+13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+13-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:9:5-77
+13-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:9:22-75
+14
+15    <application>
+15-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:11:5-27:19
+16        <activity
+16-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:12:9-13:39
+17            android:name="com.guichaguri.trackplayer.activity.PlayerActivity"
+17-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:12:19-58
+18            android:exported="false" />
+18-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:13:13-37
+19        <!-- &lt;!&ndash; The main service, handles playback, playlists and media buttons &ndash;&gt; -->
+20        <!-- <service android:name=".service.MusicService" android:enabled="true" android:exported="true"> -->
+21        <!-- <intent-filter> -->
+22        <!-- <action android:name="android.intent.action.MEDIA_BUTTON" /> -->
+23        <!-- </intent-filter> -->
+24        <!-- </service> -->
+25        <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+26        <receiver android:name="androidx.media.session.MediaButtonReceiver" >
+26-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:21:9-25:20
+26-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:21:19-76
+27            <intent-filter>
+27-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:22:13-24:29
+28                <action android:name="android.intent.action.MEDIA_BUTTON" />
+28-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:23:17-77
+28-->/Users/pinalpatel/GBC/NewslyJavaPlayer/newslymilestonePlayer/newslymilestone1/node_modules/react-native-track-player/android/src/main/AndroidManifest.xml:23:25-74
+29            </intent-filter>
+30        </receiver>
+31    </application>
+32
+33</manifest>
