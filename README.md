@@ -5,7 +5,7 @@ ExoPlayer is an application level media player for Android. It provides an alter
 
 This project has the following feature: 
 
-When you click on Article/Podcast, you'll be able to add a bottom track player
+“*” When you click on Article/Podcast, you'll be able to add a bottom track player
 
 When you click on the bottom track player, the entire player screen will appear
 
