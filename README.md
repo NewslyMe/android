@@ -41,7 +41,7 @@ The following is a list of features that must be implemented:
 Documentation
 
 - The [developer guide](https://exoplayer.dev/hello-world.html/) provides a wealth of information.
-- The class reference documents ExoPlayer classes.
-- The release notes document the major changes in each release.
-- Follow our developer blog to keep up to date with the latest ExoPlayer developments!
+- The [class reference](https://exoplayer.dev/doc/reference/) documents ExoPlayer classes.
+- The [release notes](https://github.com/google/ExoPlayer/blob/release-v2/RELEASENOTES.md) document the major changes in each release.
+- Follow our [developer blog](https://medium.com/google-exoplayer) to keep up to date with the latest ExoPlayer developments!
 
