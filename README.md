@@ -1,6 +1,7 @@
 # android
 
-ExoPlayer 2.16.1
+Version used : ExoPlayer 2.16.1
+
 ExoPlayer is an application level media player for Android. It provides an alternative to Android’s MediaPlayer API for playing audio and video both locally and over the Internet. ExoPlayer supports features not currently supported by Android’s MediaPlayer API, including DASH and SmoothStreaming adaptive playbacks. Unlike the MediaPlayer API, ExoPlayer is easy to customize and extend, and can be updated through Play Store application updates
 
 This project has the following feature: 
@@ -36,3 +37,11 @@ The following is a list of features that must be implemented:
 - Background services and notification bar(while phone is lock)
 
 - Reordering to the playlist
+
+Documentation
+
+- The developer guide provides a wealth of information.
+- The class reference documents ExoPlayer classes.
+- The release notes document the major changes in each release.
+- Follow our developer blog to keep up to date with the latest ExoPlayer developments!
+
